@@ -1,0 +1,16 @@
+.escrita {
+  h2{
+    font: 400 1.25rem/1.2 "Inconsolata";
+    color: #C0C4CE;
+  }
+
+  h1{
+    font: 700 3.5rem/1.2 "Asap";
+    color: #E2E4E9;
+  }
+  
+  p{
+    font: 400 0.875rem/1.4 "Maven Pro";
+    color: #878EA1;
+  }
+}

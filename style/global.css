@@ -9,25 +9,26 @@
   background-repeat: no-repeat;
   justify-items: center;
   background-size: cover;
-  height: 750px;
-  padding-top: 80px;
+  height: 46.875rem;
+  padding-top: 5rem;
 }
 
 .header{
-  width: 112px;
-  height: 112px;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
-  border: 3px solid #E3646E;
+  border: .1875rem solid #E3646E;
   
   position: relative;
+  margin-bottom: 3.5rem;
 
   .foto{ 
     
     position: absolute;
-    top:7px ;
-    left: 8px;
-    width: 90px;
-    height: 90px;
+    top: 0.4375rem ;
+    left: 0.5rem;
+    width: 5.625rem;
+    height: 5.625rem;
     border-radius: 50%;
   }
   .vector{
@@ -35,4 +36,32 @@
     left: 70%;
     top: 70%;
   }
+}
+
+.escrita {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 42.5rem ;
+  margin-bottom: 5rem;
+  
+  h2 span{
+    
+    color: #E3646E;
+  }
+  
+  h1{
+    margin-top: .5rem;
+  }
+
+  p{
+    margin-top: 1.25rem;
+  }
+}
+
+.tags{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  gap: 6.375rem;
 }
