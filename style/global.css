@@ -14,8 +14,8 @@
 }
 
 .header{
-  width: 7rem;
-  height: 7rem;
+  width: 7.5rem;
+  height: 7.5rem;
   border-radius: 50%;
   border: .1875rem solid #E3646E;
   
@@ -25,15 +25,15 @@
   .foto{ 
     
     position: absolute;
-    top: 0.4375rem ;
-    left: 0.5rem;
-    width: 5.625rem;
-    height: 5.625rem;
+    top: 0.3rem ;
+    left: 0.3rem;
+    width: 6.5rem;
+    height: 6.5rem;
     border-radius: 50%;
   }
   .vector{
     position: absolute;
-    left: 70%;
+    left: 73%;
     top: 70%;
   }
 }
