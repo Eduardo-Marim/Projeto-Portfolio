@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+ 
+}
+
+.inicio{
+  background-image: url(/assets/Background_Intro.png);
+  background-repeat: no-repeat;
+  justify-items: center;
+  background-size: cover;
+  height: 750px;
+  padding-top: 80px;
+}
+
+.header{
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  border: 3px solid #E3646E;
+  
+  position: relative;
+
+  .foto{ 
+    
+    position: absolute;
+    top:7px ;
+    left: 8px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  .vector{
+    position: absolute;
+    left: 70%;
+    top: 70%;
+  }
+}
