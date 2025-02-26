@@ -1,0 +1,48 @@
+.destaque{
+  background-color: #16181D;
+  justify-items: center;
+  padding: 4.5rem 7.5rem 9rem;
+
+  h2{
+    margin-bottom: .5rem;
+    font: 400 1.25rem/1.2 Inconsolata;
+    color: #E3646E;
+  }
+
+  >h1{
+    margin-bottom: 3.5rem;
+    font: 700 1.5rem/1.2 Asap;
+    color: #E2E4E9;
+  }
+}
+.projetos{
+  padding: .75rem;
+  background-color: #292C34;
+  border-radius: .75rem;
+  h1{
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+    font: 700 1rem/1.2 Asap;
+    color: #E2E4E9;
+  }
+
+  p{
+    font: 400 0.875rem/1.4 "Maven Pro" ;
+    color: #C0C4CE;
+  }
+
+  &:hover{
+    border: 1px solid #C0C4CE;
+  }
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 20.625rem);
+  justify-content: center;
+  gap: 1.5rem;
+  max-height: 57.3125rem;
+}
+.grid2{
+  grid-column: 2/3;
+}
