@@ -1,0 +1,55 @@
+.contato{
+  background-image: url(/assets/Contato/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: bottom;
+  justify-items: center;
+  height: 46.875rem;
+  padding: 8rem 7.5rem 12.5rem;
+}
+.textcontato{
+  margin-bottom: 3rem;
+  h2{
+    justify-self: center;
+    color: #BB72E9;
+    font: 400 1.25rem/1.2 Inconsolata;
+  }
+  h1{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font: 700 1.5rem/1.2 Asap;
+    color: #E2E4E9;
+    justify-self: center;
+  }
+  p{
+    color: #C0C4CE;
+    font: 400 1rem/1.4 "Maven Pro";
+  }
+}
+a{
+  text-decoration: none;
+  color: #C0C4CE;
+  align-items: center;
+  gap: 1.25rem;
+  position: relative;
+  p{
+    font: 500 1rem/1.4 "Maven Pro";
+  }
+  img:last-child{
+    position: absolute;
+    right: 0 ;
+  }
+}
+.link{
+  background-color: #292C34;
+  border-radius: .5rem;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  width: 25rem;
+  &:hover{
+    border: 1px solid #3996DB;
+    text-decoration: underline #3996DB;
+    
+  }
+  
+}
