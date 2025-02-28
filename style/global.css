@@ -5,7 +5,7 @@
 }
 
 .inicio{
-  background-image: url('https://via.placeholder.com/1920x1080'); 
+  background-image: url(/assets/bgintro.png); 
   background-repeat: no-repeat;
   justify-items: center;
   background-size: cover;
